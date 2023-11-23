@@ -46,3 +46,8 @@ $ cd ./backend
 $ npm i
 $ npm run test
 ```
+
+# Authors
+- Aidan Grant-Ushinsky
+- Nitpreet Arneja
+- Ron Fudim

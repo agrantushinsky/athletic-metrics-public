@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&display=swap');
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: royalblue;
+}
+
+#soccer {
+  margin-top: 20px;
+}
+
+#soccerText {
+  transform: translateY(5%);
+}
+
+.labelNames {
+  justify-content: center;
+  align-items: center;
+}
+
+
+#soccerGif {
+  margin-left: 25px;
+}
+
+.homeMessage {
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus-container {
+  display: flex;
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutus-image {
+  justify-content: left;
+}
+
+.aboutus-content {
+  padding: 60px;
+}
+
+.aboutus-container h2 {
+  padding: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+}
+
+.aboutus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutus-content {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+.aboutus-image {
+  flex-basis: 40%;
+  padding: 20px;
+}
+
+.aboutus-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#aboutus-Message {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 60px;
+  line-height: 40px;
+  width: 750px;
+  margin-left: 160px;
+  background-color: goldenrod;
+
+}
+
+.aboutus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aboutus-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.aboutus-image {
+  margin-top: 10px
+}
+
+.sportLabels {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: royalblue;
+  color: rgb(177, 184, 190);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: royalblue;
+}
+
+.featuresHeader h2{
+  font-size: 60px;
+  font-family: 'Bebas Neue', sans-serif;
+  justify-content: center; /* Centers horizontally */
+  text-align: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  margin-bottom: 0px;
+}
+
+.features {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #d3d3d3;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-columns: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

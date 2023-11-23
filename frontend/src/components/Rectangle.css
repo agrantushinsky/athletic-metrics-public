@@ -1,0 +1,24 @@
+.rectangle {
+    width: 300px; 
+    height: 150px; 
+    background-color: black;
+    border-radius: 10px;
+    opacity: 80%;
+    padding: 30px; 
+    margin-top: 10px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 90px;
+    margin-left: 150px;
+  }
+  
+.rectangle p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center; /* Remove default margin from the paragraph */
+}

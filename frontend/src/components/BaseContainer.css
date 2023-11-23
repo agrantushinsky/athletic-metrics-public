@@ -1,0 +1,12 @@
+.baseContainer {
+    display: flexbox;
+    background-color: lightgray;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.baseContainer > * {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

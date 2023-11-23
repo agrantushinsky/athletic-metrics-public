@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.footer p {
+  display: flex;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: royalblue;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+  
+.footer-left {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 15px;
+}
+  
+.social-icon {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: aliceblue;
+}

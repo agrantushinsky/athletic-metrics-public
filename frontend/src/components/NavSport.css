@@ -1,0 +1,11 @@
+.navSport{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: royalblue;
+}
+
+.navSport img
+{
+    height: 200px;
+    width: 200px;
+}
